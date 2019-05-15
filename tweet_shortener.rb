@@ -15,6 +15,17 @@ end
 
 def word_substituter(string)
   
+  dictionary
   
+  a = string.split
   
+  a.each do |word|
+  if  dictionary.has_key?(word)
+
+  string[word] = dictionary[word]
+  
+  end
+ end
+ string
 end
+
