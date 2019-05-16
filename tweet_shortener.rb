@@ -52,3 +52,38 @@ end
 
 
 
+
+def selective_tweet_shortener(string)
+  
+  def word_substituter(string)
+  dictionary
+  a = string.split
+  i = 0
+  a.each do |word|
+
+    if  dictionary.has_key?(word.downcase)
+
+    a[i] = dictionary[word.downcase]
+    end
+    i += 1
+ end
+ a.join(" ")
+end
+  
+  
+  if string.count > 140
+  puts word_substituter(string)
+else
+  
+  puts string
+    
+  end
+    
+  
+end 
+
+
+
+
+
+
