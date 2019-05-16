@@ -72,18 +72,11 @@ end
   
   
   if string.length > 140
-  puts word_substituter(string)
+   word_substituter(string)
 else
-  
   string
-    
-  end
-    
-  
+     end
 end 
-
-
-
 
 
 
