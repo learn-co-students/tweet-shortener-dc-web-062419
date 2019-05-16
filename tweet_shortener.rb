@@ -29,7 +29,7 @@ def word_substituter(string)
 end
 
 
-=begin def bulk_tweet_shortener(tweets)
+def bulk_tweet_shortener(tweets)
 
 def word_substituter(string)
   dictionary
@@ -45,6 +45,10 @@ def word_substituter(string)
  end
  a.join(" ")
 end
+tweets.each do |string|
 	puts word_substituter(string)
 end
-=end
+end
+
+
+
