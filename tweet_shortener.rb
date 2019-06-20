@@ -1,1 +1,23 @@
-# Write your code here.
+require 'pry'
+
+def dictionary
+    dictionary_words = {
+        "hello" => 'hi',
+        "to" => '2',
+        "two" => '2',
+        "too" => '2',
+        "for" => '4',
+        "four" => '4',
+        'be' => 'b',
+        'you' => 'u',
+        "at" => "@",
+        "and" => "&"
+    }
+end
+binding.pry
+def words_substituter(tweet)
+  
+    tweet.split.each { |word| puts word.downcase }
+end
+
+
